@@ -15,3 +15,7 @@ By default, Replit runs the `dev` script, but you can configure it by changing t
 ### Typescript
 
 Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+
+
+## Issue
+Our application chains multiple audio buffers together for playback. While the buffers do play in sequence, there is a brief "pop" or "click" between them. I am looking for a solution that ensures seamless transitions between each buffer, potentially using crossfading or another effective method to eliminate any audible gaps or artifacts.
